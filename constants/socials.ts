@@ -18,7 +18,7 @@ export const socials: NavItem[] = [
   },
   {
     name: 'Twitter',
-    icon: 'i-ph-twitter-logo-duotone',
+    icon:'i-ph-twitter-logo-duotone',
     to: 'https://twitter.com/devedmonton',
   },
   {
