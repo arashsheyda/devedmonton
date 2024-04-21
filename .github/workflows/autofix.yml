@@ -17,10 +17,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "pnpm"
-      - run: pnpm install
+      - run: npm install
       - name: Fix lint issues
-        run: pnpm lint:fix
+        run: npm run lint:fix
       - uses: autofix-ci/action@ea32e3a12414e6d3183163c3424a7d7a8631ad84
         with:
           commit-message: "chore: apply automated fixes"
