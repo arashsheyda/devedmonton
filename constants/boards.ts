@@ -1,6 +1,6 @@
 export const boards = [
   {
-    name: 'Mandy Meindersma',
+    name:'Mandy Meindersma CI Test',
     pronouns: 'She/Her',
     title: 'President',
     image: '/BoardPictures/mandyMeindersma.jpg',
