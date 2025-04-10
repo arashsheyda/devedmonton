@@ -97,7 +97,7 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
     },
-    preset: 'cloudflare-pages',
+    preset: 'cloudflare',
   },
 
   // @nuxt/eslint
